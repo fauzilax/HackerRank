@@ -1,4 +1,4 @@
-package golang
+package problem
 
 func CompareTriplets(a []int32, b []int32) []int32 {
 	var aScore, bScore int32
