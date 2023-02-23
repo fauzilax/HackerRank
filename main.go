@@ -13,5 +13,8 @@ func main() {
 	simpleArraySum := []int32{2, 3, 4, 2, 5, 12, 20}
 	fmt.Println(golang.SimpleArraySum(simpleArraySum))
 
-	//
+	// Compare The Triplets
+	a := []int32{5, 6, 7}
+	b := []int32{3, 6, 10}
+	fmt.Println(golang.CompareTriplets(a, b))
 }
